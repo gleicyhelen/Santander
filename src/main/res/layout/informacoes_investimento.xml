@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="134dp"
+        android:layout_height="92dp"
+        android:text="No mes
+
+No ano
+
+12 meses"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="59dp" />
+
+    <TextView
+        android:layout_width="165dp"
+        android:layout_height="18dp"
+        android:text="Fundo                            CDI"
+        tools:layout_editor_absoluteX="197dp"
+        tools:layout_editor_absoluteY="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0,3%"
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_editor_absoluteY="59dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="13.01%"
+        tools:layout_editor_absoluteX="190dp"
+        tools:layout_editor_absoluteY="95dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="17.9%"
+        tools:layout_editor_absoluteX="197dp"
+        tools:layout_editor_absoluteY="129dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0,3%"
+        tools:layout_editor_absoluteX="333dp"
+        tools:layout_editor_absoluteY="59dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12,08%"
+        tools:layout_editor_absoluteX="317dp"
+        tools:layout_editor_absoluteY="95dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="17,6%"
+        tools:layout_editor_absoluteX="325dp"
+        tools:layout_editor_absoluteY="129dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/line_investiment"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="178dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="227dp">
+
+        <TextView
+            android:layout_width="166dp"
+            android:layout_height="36dp"
+            android:text="Taxa de Administração" />
+
+        <TextView
+            android:layout_width="166dp"
+            android:layout_height="36dp"
+            android:text="Aplicação Inicial " />
+
+        <TextView
+            android:layout_width="166dp"
+            android:layout_height="36dp"
+            android:text="Movimentação minima" />
+
+        <TextView
+            android:layout_width="166dp"
+            android:layout_height="36dp"
+            android:text="Resgate (valor bruto)" />
+
+        <TextView
+            android:layout_width="166dp"
+            android:layout_height="36dp"
+            android:text="Cota (valor bruto)" />
+
+        <TextView
+            android:layout_width="166dp"
+            android:layout_height="36dp"
+            android:text="Resgate (valor bruto)" />
+
+        <TextView
+            android:layout_width="166dp"
+            android:layout_height="36dp"
+            android:text="Pagamento (valor bruto)" />
+
+        <TextView
+            android:layout_width="166dp"
+            android:layout_height="36dp"
+            android:text="Essenciais" />
+
+        <TextView
+            android:layout_width="166dp"
+            android:layout_height="36dp"
+            android:text="Desempenho" />
+
+        <TextView
+            android:layout_width="166dp"
+            android:layout_height="36dp"
+            android:text="Complementares" />
+
+        <TextView
+            android:layout_width="166dp"
+            android:layout_height="36dp"
+            android:text="Regulamento" />
+
+        <TextView
+            android:layout_width="166dp"
+            android:layout_height="36dp"
+            android:text="Adesão" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="431dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="278dp"
+        tools:layout_editor_absoluteY="227dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="0,50%" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="R$ 10.000.00" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="R$ 1.000,00" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="R$ 5.000,00" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="D+0" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="D+1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="D+2" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/download_button" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/download_button" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/download_button" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/download_button" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/download_button" />
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
