@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import com.example.gleic.santander.json.Fund;
 import com.example.gleic.santander.retrofit.Retrofit;
 import com.example.gleic.santander.retrofit.Services;
+import com.example.gleic.santander.
 
 import retrofit2.Call;
 import retrofit2.Callback;
