@@ -2,15 +2,14 @@ package com.example.gleic.santander;
 
 import android.app.Fragment;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.example.gleic.santander.json.Fund;
-import com.example.gleic.santander.retrofit.Retrofit;
-import com.example.gleic.santander.retrofit.Services;
+import com.example.gleic.santander.retrofitconfig.RetrofitConfig;
+import com.example.gleic.santander.retrofitconfig.Services;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -31,7 +30,7 @@ public class Investimento extends Fragment {
                              Bundle savedInstanceState) {
 
 
-        View view = inflater.inflate(container,R.layout.informacoes_investimento,false);
+        View view = inflater.inflate(R.layout.informacoes_investimento, container,false);
 
         fundoMes = view.findViewById(R.id.fundoMes);
         fundoAno = view.findViewById(R.id.fundoAno);
@@ -46,7 +45,7 @@ public class Investimento extends Fragment {
     }
 
     private void init(){
-        Services services = Retrofit.retrofit.create(Services.class);
+        Services services = RetrofitConfig.retrofit.create(Services.class);
 
         final Call<Fund> fund = services.getFund();
 

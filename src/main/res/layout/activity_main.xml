@@ -14,25 +14,4 @@
        class="com.example.gleic.santander.Investimento"
        tools:layout="@layout/investimento"></fragment>
 
-    <Button
-        android:layout_width="200dp"
-       android:layout_height="wrap_content"
-        android:background="#FF0000"
-        tools:layout_editor_absoluteX="202dp"
-        tools:layout_editor_absoluteY="462dp"
-        android:text="Contato"
-        android:textColor="#FFFF"
-        android:gravity="center"/>
-
-    <Button
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:background="#FF0000"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="462dp"
-        android:textColor="#FFFF"
-        android:gravity="center"
-        android:text="Investimento"/>
-
-
 </android.support.constraint.ConstraintLayout>

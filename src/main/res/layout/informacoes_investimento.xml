@@ -1,89 +1,145 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:textAlignment="center" >
+
 
     <TextView
+        android:id="@+id/textViewSix"
         android:layout_width="134dp"
-        android:layout_height="92dp"
-        android:text="No mes
-
-No ano
-
-12 meses"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="59dp" />
+        android:layout_height="94dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:text="No mes \n\n No ano \n\n 12 meses"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewSix"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/textViewSeven"
         android:layout_width="165dp"
-        android:layout_height="18dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginLeft="204dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginStart="204dp"
+        android:layout_marginTop="8dp"
         android:text="Fundo                            CDI"
-        tools:layout_editor_absoluteX="197dp"
-        tools:layout_editor_absoluteY="24dp" />
+        app:layout_constraintBottom_toTopOf="@+id/imageViewSix"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.16" />
 
     <TextView
         android:id="@+id/fundoMes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="0,3%"
-        tools:layout_editor_absoluteX="206dp"
-        tools:layout_editor_absoluteY="59dp" />
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSeven" />
 
     <TextView
         android:id="@+id/fundoAno"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="13.01%"
-        tools:layout_editor_absoluteX="190dp"
-        tools:layout_editor_absoluteY="95dp" />
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/cdiMes"
+        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintStart_toEndOf="@+id/textViewSix"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSeven" />
 
     <TextView
         android:id="@+id/fundoMeses"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="17.9%"
-        tools:layout_editor_absoluteX="197dp"
-        tools:layout_editor_absoluteY="129dp" />
+        android:layout_width="36dp"
+        android:layout_height="21dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewSix"
+        app:layout_constraintStart_toEndOf="@+id/textViewSix"
+        app:layout_constraintTop_toBottomOf="@+id/fundoMes"
+        app:layout_constraintVertical_bias="0.29" />
 
     <TextView
         android:id="@+id/cdiMes"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="0,3%"
-        tools:layout_editor_absoluteX="333dp"
-        tools:layout_editor_absoluteY="59dp" />
+        android:layout_height="19dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSeven" />
 
     <TextView
         android:id="@+id/cdiAno"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="12,08%"
-        tools:layout_editor_absoluteX="317dp"
-        tools:layout_editor_absoluteY="95dp" />
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cdiMes" />
 
     <TextView
         android:id="@+id/cdiMeses"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="17,6%"
-        tools:layout_editor_absoluteX="325dp"
-        tools:layout_editor_absoluteY="129dp" />
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewSix"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.977"
+        app:layout_constraintStart_toEndOf="@+id/fundoMeses"
+        app:layout_constraintTop_toBottomOf="@+id/cdiAno"
+        app:layout_constraintVertical_bias="0.089" />
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/imageViewSix"
+        android:layout_width="667dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
         android:background="@drawable/line_investiment"
-        tools:layout_editor_absoluteX="3dp"
-        tools:layout_editor_absoluteY="178dp" />
+        app:layout_constraintBottom_toTopOf="@+id/linearLayoutSix"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/linearLayoutSix"
+        android:layout_width="162dp"
+        android:layout_height="449dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="244dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="227dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:layout_width="166dp"
@@ -145,50 +201,66 @@ No ano
             android:layout_height="36dp"
             android:text="Adesão" />
 
-
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="100dp"
-        android:layout_height="431dp"
+        android:layout_width="135dp"
+        android:layout_height="410dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="152dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="278dp"
-        tools:layout_editor_absoluteY="227dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.607"
+        app:layout_constraintStart_toEndOf="@+id/linearLayoutSix"
+        app:layout_constraintTop_toBottomOf="@+id/cdiMes"
+        app:layout_constraintVertical_bias="0.333">
 
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="36dp"
+            android:gravity="right"
             android:text="0,50%" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="36dp"
+            android:gravity="right"
             android:text="R$ 10.000.00" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="36dp"
+            android:gravity="right"
             android:text="R$ 1.000,00" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="36dp"
+            android:gravity="right"
             android:text="R$ 5.000,00" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="36dp"
+            android:gravity="right"
             android:text="D+0" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="36dp"
+            android:gravity="right"
             android:text="D+1" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="36dp"
+            android:gravity="right"
             android:text="D+2" />
 
         <ImageView

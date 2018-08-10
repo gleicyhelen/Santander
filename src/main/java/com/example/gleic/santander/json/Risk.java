@@ -8,7 +8,7 @@ public enum Risk {
 
     @SerializedName("1")
     LOW,
-    @SerializedName("2")
+    @SerializedName ("2")
     LOW_REGULAR,
     @SerializedName("3")
     REGULAR,

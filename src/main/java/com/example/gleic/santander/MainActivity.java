@@ -3,15 +3,6 @@ package com.example.gleic.santander;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import com.example.gleic.santander.json.Fund;
-import com.example.gleic.santander.retrofit.Retrofit;
-import com.example.gleic.santander.retrofit.Services;
-import com.example.gleic.santander.
-
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
-
 public class
 MainActivity extends AppCompatActivity {
 
@@ -28,10 +19,10 @@ MainActivity extends AppCompatActivity {
 
     }
 
+    /*private void init(){
+        Services services = Retrofit.retrofit.getClass(Investimento);
 
-
-    private void init(){
-        Services services = Retrofit.retrofit.create(Services.class);
+                //Retrofit.retrofit.create(Services.class);
 
         Call<Fund> fund = services.getFund();
 
@@ -48,7 +39,7 @@ MainActivity extends AppCompatActivity {
             public void onFailure(Call<Fund> call, Throwable t) {
 
             }
-        });
+        });*/
 
-}}
+}
 

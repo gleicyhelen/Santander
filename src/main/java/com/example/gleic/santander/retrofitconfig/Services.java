@@ -1,4 +1,4 @@
-package com.example.gleic.santander.retrofit;
+package com.example.gleic.santander.retrofitconfig;
 
 import com.example.gleic.santander.json.Fund;
 
